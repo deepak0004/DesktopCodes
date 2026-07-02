@@ -5,6 +5,10 @@ C and C++, written for competitive programming and interview practice.
 
 Organized by topic. Each file is a self-contained implementation.
 
+For real interview and contest problem solutions (Amazon, Directi, Facebook,
+Google APAC / Kickstart / Code Jam), see
+[`interview_problems/`](interview_problems/README.md).
+
 ## Graphs
 | File | Description | Complexity |
 |------|-------------|------------|
