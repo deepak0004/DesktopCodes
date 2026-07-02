@@ -19,6 +19,8 @@ Organized by topic. Each file is a self-contained implementation.
 | `graphs/cycle_detection.cpp` | Detect a cycle in a graph via DFS | O(V + E) |
 | `graphs/bipartite_check.cpp` | Bipartiteness / 2-coloring via DFS | O(V + E) |
 | `graphs/minimum_spanning_tree.c` | Kruskal's MST (edge sort + DSU) | O(E log E) |
+| `graphs/maximum_bipartite_matching.cpp` | Maximum bipartite matching (Kuhn's augmenting paths) | O(V · E) |
+| `graphs/centroid_decomposition.cpp` | Centroid decomposition of a tree | O(N log N) |
 
 ## Trees & Heaps
 | File | Description | Complexity |
@@ -43,10 +45,21 @@ Organized by topic. Each file is a self-contained implementation.
 | `math/modular_inverse_factorials.cpp` | Precomputed factorials + modular inverses for nCr mod p | O(N) build |
 | `math/matrix_exponentiation.cpp` | Fast matrix power for linear recurrences | O(K³ log N) |
 
+## Searching
+| File | Description | Complexity |
+|------|-------------|------------|
+| `searching/binary_search_on_answer.cpp` | Binary search on the answer (predicate + threshold) | O(N log(range)) |
+| `searching/ternary_search.cpp` | Unimodal optimization (ternary / golden-section style search) | O(N log(range)) |
+
 ## Strings
 | File | Description | Complexity |
 |------|-------------|------------|
 | `strings/longest_palindromic_subsequence.cpp` | Longest palindromic subsequence via DP | O(N²) |
+
+## Geometry
+| File | Description | Complexity |
+|------|-------------|------------|
+| `geometry/point_in_polygon.cpp` | Point-in-polygon test via ray casting | O(N) per query |
 
 ## Sorting
 | File | Description | Complexity |
